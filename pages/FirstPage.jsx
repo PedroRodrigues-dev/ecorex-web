@@ -1,4 +1,4 @@
-export const FirstPage = () => {
+export default function FirstPage() {
   const items = [];
   const residues = [];
   const states = [];
@@ -211,4 +211,4 @@ export const FirstPage = () => {
       </div>
     </div>
   );
-};
+}
